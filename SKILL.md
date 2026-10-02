@@ -57,7 +57,7 @@ touching a single animation.
   progress rail, subtitles), motion helpers (`land rise fade exit draw type count`).
 - `engine/tts.py`, `align.py`, `mix.py`, `loudnorm.py`: voice pipeline. `read-aloud.mjs`,
   `split-take.py`: the user's own voice.
-- `templates/episode/`: the starting point (a 40-second video about this engine).
+- `templates/episode/`: the starting point (a short video, about 35 seconds, about this engine).
 - `examples/`: three real episodes to copy patterns from (flow diagrams, knowledge graphs,
   counters, typed text, comparison cards, Shorts layout).
 - `reference/`: research, scenes, critique, voice, shorts, publish.

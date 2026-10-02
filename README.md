@@ -8,6 +8,12 @@ The core idea: every animation is keyed to a **beat** of the narration (a line, 
 single word), never to raw seconds. Swap the AI voice for your own recording and the whole video
 retimes itself to how you actually talk.
 
+![Scenes rendered by this skill: a knowledge graph sorting itself into clusters, a language model next to a decision model, and a question router](media/demo.gif)
+
+*Scenes from [`examples/rag-vs-graphrag`](examples/rag-vs-graphrag) and [`examples/jev`](examples/jev),
+both made with this skill. With sound: [the 33-second template video](https://github.com/RohanRatwani/explainer-video-opus-5.5/releases/download/v0.1.0/template-demo.mp4)
+(MP4, 8 MB, AI voice), which is exactly what your first render will look like.*
+
 ## What you get per video
 - `brief.md`: every fact in the video, with its source
 - `script.md`: the scene table to approve before anything gets built
@@ -40,7 +46,7 @@ cd ~/videos && node engine/new.mjs my-topic
 cd videos/my-topic && node build.mjs   # silent cut + script.md
 cd edit && npx --yes hyperframes render -o ../renders/my-topic-v1.mp4
 ```
-The template is a 40-second video about how this skill works. Render it first; then replace its beats.
+The template is a short video (about 35 seconds) about how this skill works. Render it first; then replace its beats.
 
 ## Your own voice
 `node engine/read-aloud.mjs videos/my-topic` writes a script to read aloud. Read it in one take,
