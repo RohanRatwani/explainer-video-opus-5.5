@@ -2,7 +2,8 @@
 
 A Claude Code skill that makes motion-design explainer videos: you give it a topic, it researches
 it, writes the narration, animates every scene in HTML and GSAP, voices it, and renders an MP4.
-16:9 for YouTube or 9:16 for Shorts. Everything runs locally and free.
+16:9 for YouTube or 9:16 for Shorts. Apart from Claude Code itself, everything it uses is free
+and runs on your own computer.
 
 The core idea: every animation is keyed to a **beat** of the narration (a line, or a
 single word), never to raw seconds. Swap the AI voice for your own recording and the whole video
