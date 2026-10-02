@@ -1,0 +1,12 @@
+videos/
+examples/*/edit/
+examples/*/vo/
+examples/*/renders/
+examples/*/snaps/
+examples/*/script.md
+examples/*/beats.json
+examples/*/total.txt
+examples/*/captions.srt
+examples/*/chapters.txt
+node_modules/
+.DS_Store
